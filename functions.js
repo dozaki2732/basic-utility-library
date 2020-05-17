@@ -80,9 +80,24 @@ function push(beer) {
 }
 
 function pop(beer) {
-   // R: push the word onto the list
+   // R: push the word from the list
    beerlist = ["Modelo", " Asahi", " Kirin", " Pacifico"];
    beerlist.pop();
    beerlist.push(beer);
    return beerlist;
+}
+
+function shift(foodItem) {
+   // R: shift the word font the list
+   foodList = ["eggs", " coffee", " cherries", " snacks"];
+   foodList.shift();
+   foodList.push(foodItem);
+   return foodList;
+}
+function unshift(foodItem) {
+   // R: shift the word font the list
+   foodList = ["eggs", " coffee", " cherries", " snacks"];
+   foodList.unshift();
+   foodList.push(foodItem);
+   return foodList;
 }
