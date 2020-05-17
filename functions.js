@@ -32,7 +32,17 @@ function decrement(number) {
    return number;
 }
 
-function multiply(mult1, mult2) {
-   // R: multiplied the two var
-   return mult1 * mult2;
+function multiply(decimal1, decimal2) {
+   // R: multiplied the two decimals
+   return decimal1 * decimal2;
+}
+
+function divide(decimal1, decimal2) {
+   // R: the first decimal is divided by the second decimal
+   return decimal1 / decimal2;
+}
+
+function concatenate(string1, string2) {
+   // R: concatenate the two strings
+   return string1 + "" + string2;
 }
