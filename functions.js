@@ -112,3 +112,12 @@ function list(foodItem) {
    shoppingList.push(foodItem);
    return shoppingList;
 }
+
+function stand(yourItem) {
+   // R: queue your item
+   listForLine = ["noodles", "beer", "eggs", "fruit"];
+   listForLine.push(yourItem);
+   listForLine.shift();
+
+   return listForLine;
+}
