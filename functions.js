@@ -72,7 +72,9 @@ function find(word1) {
    return word1[4];
 }
 
-function find(word1) {
-   // R: the last letter of the word
-   return word1[word1.length - 2];
+function push(beer) {
+   // R: push the word onto the list
+   beerlist = ["Modelo", "Asahi", "Kirin"];
+   beerlist.push(" " + beer);
+   return beerlist;
 }
