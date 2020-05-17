@@ -101,3 +101,14 @@ function unshift(foodItem) {
    foodList.push(foodItem);
    return foodList;
 }
+
+function list(foodItem) {
+   // R: added item to list
+   shoppingList = [
+      ["beer", 3],
+      ["lettuce", 2],
+      ["soap", 4],
+   ];
+   shoppingList.push(foodItem);
+   return shoppingList;
+}
