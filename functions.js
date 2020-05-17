@@ -73,6 +73,6 @@ function find(word1) {
 }
 
 function find(word1) {
-   // R: the fifth letter of the word
+   // R: the last letter of the word
    return word1[word1.length - 1];
 }
