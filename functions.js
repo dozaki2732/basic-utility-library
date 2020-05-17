@@ -54,5 +54,7 @@ function concatenate(string1, string2) {
 
 function construct(beer) {
    // add the input into the string
-   return "My favorite beer is " + beer + " and I love it deeply. ";
+   return "My favorite beer is " + beer + ", and I love it deeply. ";
 }
+
+function measure()
