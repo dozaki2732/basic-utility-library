@@ -57,4 +57,22 @@ function construct(beer) {
    return "My favorite beer is " + beer + ", and I love it deeply. ";
 }
 
-function measure()
+function measure(word1) {
+   // measure the length of characters in this word
+   return word1.length;
+}
+
+function find(word1) {
+   // R: the first letter of the word
+   return word1[0];
+}
+
+function find(word1) {
+   // R: the fifth letter of the word
+   return word1[4];
+}
+
+function find(word1) {
+   // R: the fifth letter of the word
+   return word1[word1.length - 1];
+}
