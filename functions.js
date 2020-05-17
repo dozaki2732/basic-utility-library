@@ -44,5 +44,5 @@ function divide(decimal1, decimal2) {
 
 function concatenate(string1, string2) {
    // R: concatenate the two strings
-   return string1 + "" + string2;
+   return string1 + " " + string2;
 }
