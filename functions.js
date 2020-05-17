@@ -19,3 +19,15 @@ function divide(numerator, denominator) {
    // R: numerator is divided by the denominator
    return numerator / denominator;
 }
+
+function increment(number) {
+   // R: increment number by 1
+   number++;
+   return number;
+}
+
+function decrement(number) {
+   // R: increment number by 1
+   number--;
+   return number;
+}
