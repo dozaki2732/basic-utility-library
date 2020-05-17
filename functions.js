@@ -74,7 +74,15 @@ function find(word1) {
 
 function push(beer) {
    // R: push the word onto the list
-   beerlist = ["Modelo", "Asahi", "Kirin"];
+   beerlist = [" Modelo", " Asahi", " Kirin"];
    beerlist.push(" " + beer);
+   return beerlist;
+}
+
+function pop(beer) {
+   // R: push the word onto the list
+   beerlist = ["Modelo", " Asahi", " Kirin", " Pacifico"];
+   beerlist.pop();
+   beerlist.push(beer);
    return beerlist;
 }
