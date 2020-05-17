@@ -31,3 +31,8 @@ function decrement(number) {
    number--;
    return number;
 }
+
+function multiply(mult1, mult2) {
+   // R: multiplied the two var
+   return mult1 * mult2;
+}
