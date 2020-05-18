@@ -62,14 +62,23 @@ function measure(word1) {
    return word1.length;
 }
 
-function find(word1) {
+function findFirst(word1) {
    // R: the first letter of the word
    return word1[0];
 }
 
-function find(word1) {
+function findFifth(word1) {
    // R: the fifth letter of the word
    return word1[4];
+}
+function findLast(word1) {
+   // R: the last letter of the word
+   return word1[word1.length - 1];
+}
+
+function findSecondToLast(word1) {
+   // R: the last letter of the word
+   return word1[word1.length - 2];
 }
 
 function push(beer) {
